@@ -1,0 +1,27 @@
+{
+  "name": "deepThoughts2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "isntall": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbsantos-code/deep-thoughts-refresher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbsantos-code/deep-thoughts-refresher/issues"
+  },
+  "homepage": "https://github.com/rbsantos-code/deep-thoughts-refresher#readme",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
